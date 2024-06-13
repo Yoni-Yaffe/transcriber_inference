@@ -4,7 +4,7 @@ from librosa.filters import mel
 from librosa.util import pad_center
 from scipy.signal import get_window
 from torch.autograd import Variable
-from constants import *
+from .constants import *
 
 
 class STFT(torch.nn.Module):
