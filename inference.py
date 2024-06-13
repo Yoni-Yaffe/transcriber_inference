@@ -1,7 +1,8 @@
 import os
-from utils import frames2midi, load_audio, max_inst
-from constants import *
-from mel import melspectrogram
+# from onsets_and_frames.utils import frames2midi, load_audio, max_inst
+# from onsets_and_frames.constants import *
+# from onsets_and_frames.mel import melspectrogram
+from onsets_and_frames import *
 import numpy as np
 
 
